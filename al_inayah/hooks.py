@@ -251,5 +251,9 @@ fixtures=["Agency", "Manufacturer Item", "Manufacturer Custom",
     {
         "dt": "Item",
         "filters": {"item_group": "Pharmacy Items"}
+    },
+    {
+        "dt": "Report",
+        "filters": [["name", "in", ["Items By Manufacturer", "Agency Lead Time"]]]
     }
 ]

@@ -1,0 +1,66 @@
+[
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[],\"fields\":[[\"name\",\"Agency\"],[\"docstatus\",\"Agency\"],[\"item_code\",\"Agency Item\"],[\"min_order_qty\",\"Agency Item\"],[\"lead_time_days\",\"Agency Item\"],[\"is_active\",\"Agency\"]],\"order_by\":\"`tabAgency`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":120,\"docstatus\":120,\"Agency Item:item_code\":120,\"Agency Item:min_order_qty\":120,\"Agency Item:lead_time_days\":120,\"is_active\":89},\"group_by\":null}",
+  "letter_head": null,
+  "modified": "2026-01-05 18:43:37.983307",
+  "module": "Agency Management",
+  "name": "Agency Lead Time",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Agency",
+  "reference_report": null,
+  "report_name": "Agency Lead Time",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "Agency Lead Time",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "No",
+  "javascript": null,
+  "json": "{\"filters\":[],\"fields\":[[\"name\",\"Manufacturer Item\"],[\"manufacturer\",\"Manufacturer Item\"],[\"item_code\",\"Manufacturer Item\"],[\"part_number\",\"Manufacturer Item\"],[\"gtin\",\"Manufacturer Item\"]],\"order_by\":\"`tabManufacturer Item`.`modified` desc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":171,\"manufacturer\":120,\"item_code\":120,\"part_number\":120,\"gtin\":99},\"group_by\":null}",
+  "letter_head": null,
+  "modified": "2026-01-05 19:09:01.813662",
+  "module": "Manufacturer Item",
+  "name": "Items By Manufacturer",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Manufacturer Item",
+  "reference_report": null,
+  "report_name": "Items By Manufacturer",
+  "report_script": null,
+  "report_type": "Report Builder",
+  "roles": [
+   {
+    "parent": "Items By Manufacturer",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   }
+  ],
+  "timeout": 0
+ }
+]
