@@ -1,0 +1,42 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Manufacturer Item",
+  "gtin": "123",
+  "item_code": "Item1",
+  "manufacturer": "Manufacture 1",
+  "modified": "2026-01-05 19:04:30.452972",
+  "name": "Manufacture 1-Item1",
+  "part_number": "Item"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Manufacturer Item",
+  "gtin": "123",
+  "item_code": "Item2",
+  "manufacturer": "Manufacture 1",
+  "modified": "2026-01-05 19:06:18.569288",
+  "name": "Manufacture 1-Item2",
+  "part_number": "Item2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Manufacturer Item",
+  "gtin": null,
+  "item_code": "Item1",
+  "manufacturer": "Manufacturer 2",
+  "modified": "2026-01-05 19:22:36.102679",
+  "name": "Manufacturer 2-Item1",
+  "part_number": "Item1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Manufacturer Item",
+  "gtin": null,
+  "item_code": "Item2",
+  "manufacturer": "Manufacturer 2",
+  "modified": "2026-01-05 19:22:44.554540",
+  "name": "Manufacturer 2-Item2",
+  "part_number": "Item2"
+ }
+]
